@@ -11,6 +11,17 @@ body {
     height: 100vh;
 }
 
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -35,13 +46,11 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-}
-
-.sidebar h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    margin-top: -30px;
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
 }
 
 .main-slide {
@@ -51,29 +60,27 @@ body {
     left: 35%;
     width: 65%;
     transition: transform 0.5s ease-in-out;
+
+    &>div {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+    }
 }
 
-.main-slide>div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
-}
+.aboutMe {
+    &__header {
+        position: relative;
+        top: 10%;
+    }
 
-.sidebar>div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
+    &__parag {
+        position: relative;
+        top: 15%;
+    }
 }
-
-// img {
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center center;
-// }
 
 button {
     background-color: #fff;
