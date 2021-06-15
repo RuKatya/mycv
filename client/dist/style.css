@@ -36,7 +36,6 @@ p {
   left: 0;
   transition: transform 0.5s ease-in-out;
 }
-
 .sidebar > div {
   height: 100%;
   width: 100%;
@@ -48,8 +47,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100%;
-  width: 100%;
 }
 
 .main-slide {
@@ -75,6 +72,11 @@ p {
 .aboutMe__parag {
   position: relative;
   top: 15%;
+}
+.aboutMe__lang {
+  position: absolute;
+  top: 2%;
+  left: 95%;
 }
 
 .hobbies--header {

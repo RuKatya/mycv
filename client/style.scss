@@ -36,22 +36,24 @@ p {
     top: 0;
     left: 0;
     transition: transform 0.5s ease-in-out;
+
+    &>div {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        // height: 100%;
+        // width: 100%;
+    }
 }
 
-.sidebar>div {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    width: 100%;
-}
+
 
 .main-slide {
     height: 100%;
@@ -81,6 +83,12 @@ p {
     &__parag {
         position: relative;
         top: 15%;
+    }
+
+    &__lang {
+        position: absolute;
+        top: 2%;
+        left: 95%;
     }
 }
 
