@@ -76,7 +76,19 @@ p {
 .aboutMe__lang {
   position: absolute;
   top: 2%;
-  left: 95%;
+  left: 90%;
+  color: black;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1% 2%;
+  display: flex;
+  align-items: center;
+}
+.aboutMe__lang > a {
+  text-decoration: none;
+  padding: 0% 2%;
 }
 
 .hobbies--header {
