@@ -42,22 +42,13 @@ a {
     transition: transform 0.5s ease-in-out;
 
     &>div {
-        // height: 100%;
         width: 100%;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // justify-content: center;
         color: white;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        // height: 100%;
-        // width: 100%;
     }
 }
-
-
 
 .main-slide {
     height: 100%;
@@ -89,23 +80,23 @@ a {
 
     &__lang {
         position: absolute;
-        top: 1%;
-        left: 80%;
-        color: black;
-        font-size: 1.2rem;
-        padding: 1% 2%;
+        top: 2%;
+        left: 87%;
+        color: rgb(41, 39, 39);
+        font-size: 1rem;
 
         .lengenhe {
             text-decoration: none;
-            padding: 3% 7%;
-            margin: 0% 10%;
+            padding: 1% 5%;
+            margin: 0% 5%;
             border-radius: 0.5rem;
             background-color: white;
         }
 
         .active {
-            background-color: rgb(43, 207, 248);
+            background-color: rgb(7, 83, 102);
             color: white;
+            box-shadow: 0 0 5px rgb(19, 72, 85), 0 0 3px;
         }
     }
 
@@ -118,7 +109,6 @@ a {
     &__pic {
         height: 100vh;
     }
-
 }
 
 .myWork {

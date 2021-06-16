@@ -74,22 +74,22 @@ a {
 }
 .aboutMe__lang {
   position: absolute;
-  top: 1%;
-  left: 80%;
-  color: black;
-  font-size: 1.2rem;
-  padding: 1% 2%;
+  top: 2%;
+  left: 87%;
+  color: #292727;
+  font-size: 1rem;
 }
 .aboutMe__lang .lengenhe {
   text-decoration: none;
-  padding: 3% 7%;
-  margin: 0% 10%;
+  padding: 1% 5%;
+  margin: 0% 5%;
   border-radius: 0.5rem;
   background-color: white;
 }
 .aboutMe__lang .active {
-  background-color: #2bcff8;
+  background-color: #075366;
   color: white;
+  box-shadow: 0 0 5px #134855, 0 0 3px;
 }
 .aboutMe__pic {
   height: 100vh;
