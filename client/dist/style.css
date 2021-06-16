@@ -87,6 +87,17 @@ a {
   border-radius: 0.5rem;
   background-color: white;
 }
+.aboutMe__pic {
+  height: 100vh;
+}
+
+.mySkills__pic {
+  height: 100vh;
+}
+
+.myWork {
+  height: 100vh;
+}
 
 .hobbies--header {
   position: relative;
@@ -97,6 +108,10 @@ a {
   top: 30%;
   font-size: 1.5rem;
   padding: 2%;
+}
+
+.hobbiesPic {
+  height: 100vh;
 }
 
 .contact {

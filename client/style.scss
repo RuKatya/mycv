@@ -103,6 +103,21 @@ a {
             background-color: white;
         }
     }
+
+    &__pic {
+        height: 100vh;
+    }
+}
+
+.mySkills {
+    &__pic {
+        height: 100vh;
+    }
+
+}
+
+.myWork {
+    height: 100vh;
 }
 
 .hobbies {
@@ -118,6 +133,12 @@ a {
         padding: 2%;
     }
 }
+
+.hobbiesPic {
+    height: 100vh;
+}
+
+
 
 .contact {
     height: 100vh;
