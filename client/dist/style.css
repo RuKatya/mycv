@@ -75,17 +75,21 @@ a {
 .aboutMe__lang {
   position: absolute;
   top: 1%;
-  left: 89%;
+  left: 80%;
   color: black;
   font-size: 1.2rem;
   padding: 1% 2%;
 }
-.aboutMe__lang > a {
+.aboutMe__lang .lengenhe {
   text-decoration: none;
-  padding: 5% 10%;
+  padding: 3% 7%;
   margin: 0% 10%;
   border-radius: 0.5rem;
   background-color: white;
+}
+.aboutMe__lang .active {
+  background-color: #2bcff8;
+  color: white;
 }
 .aboutMe__pic {
   height: 100vh;
@@ -109,8 +113,7 @@ a {
   font-size: 1.5rem;
   padding: 2%;
 }
-
-.hobbiesPic {
+.hobbies__pic {
   height: 100vh;
 }
 

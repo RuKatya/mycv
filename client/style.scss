@@ -90,17 +90,22 @@ a {
     &__lang {
         position: absolute;
         top: 1%;
-        left: 89%;
+        left: 80%;
         color: black;
         font-size: 1.2rem;
         padding: 1% 2%;
 
-        &>a {
+        .lengenhe {
             text-decoration: none;
-            padding: 5% 10%;
+            padding: 3% 7%;
             margin: 0% 10%;
             border-radius: 0.5rem;
             background-color: white;
+        }
+
+        .active {
+            background-color: rgb(43, 207, 248);
+            color: white;
         }
     }
 
@@ -132,13 +137,12 @@ a {
         font-size: 1.5rem;
         padding: 2%;
     }
+
+    &__pic {
+        height: 100vh;
+
+    }
 }
-
-.hobbiesPic {
-    height: 100vh;
-}
-
-
 
 .contact {
     height: 100vh;
