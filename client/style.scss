@@ -22,6 +22,10 @@ p {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     position: relative;
     overflow: hidden;
@@ -38,12 +42,12 @@ p {
     transition: transform 0.5s ease-in-out;
 
     &>div {
-        height: 100%;
+        // height: 100%;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
         color: white;
         background-repeat: no-repeat;
         background-size: cover;
@@ -70,8 +74,6 @@ p {
         height: 100%;
         width: 100%;
     }
-
-
 }
 
 .aboutMe {
@@ -87,20 +89,18 @@ p {
 
     &__lang {
         position: absolute;
-        top: 2%;
-        left: 90%;
+        top: 1%;
+        left: 89%;
         color: black;
         font-size: 1.2rem;
-        border: 1px solid white;
-        background-color: white;
-        border-radius: 1rem;
         padding: 1% 2%;
-        display: flex;
-        align-items: center;
 
         &>a {
             text-decoration: none;
-            padding: 0% 2%;
+            padding: 5% 10%;
+            margin: 0% 10%;
+            border-radius: 0.5rem;
+            background-color: white;
         }
     }
 }
@@ -116,6 +116,39 @@ p {
         top: 30%;
         font-size: 1.5rem;
         padding: 2%;
+    }
+}
+
+.contact {
+    height: 100vh;
+    text-align: center;
+    font-size: 1.1rem;
+
+    &__flex {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        display: flex;
+        flex-direction: column;
+
+        &--header {
+            padding: 10% 0%;
+            font-size: 2.5rem;
+
+            &__content {
+                padding: 5% 0%;
+            }
+        }
+    }
+
+    &__links {
+        padding: 3% 0%;
+        font-weight: bold;
+        font-size: 1.3rem;
+
+        &>a {
+            color: rgb(46, 43, 226);
+        }
     }
 }
 
