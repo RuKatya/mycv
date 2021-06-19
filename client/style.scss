@@ -69,28 +69,29 @@ a {
 
 .aboutMe {
     text-align: center;
+    color: white;
 
     &__header1 {
         position: relative;
         top: 10%;
     }
 
-    &__header3 {
+    &__header2 {
         position: relative;
         top: 12%;
     }
 
-    &__header4 {
+    &__header3 {
         position: relative;
         top: 14%;
     }
 
     &__parag {
         position: relative;
-        top: 16%;
-        left: 15%;
-        width: 70%;
-        font-size: 1.2rem;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+        font-size: 1.3rem;
     }
 
     &__lang {
