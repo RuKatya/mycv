@@ -40,6 +40,21 @@ body {
 .about__contacts--icon {
   width: 50%;
 }
+.about .titleHref {
+  display: inline-block;
+}
+.about .titleHref:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 85%;
+  margin-left: -3rem;
+  background-color: #1b2d52;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2% 3%;
+  z-index: 1;
+}
 .about__backBtn {
   position: absolute;
   top: 5%;
@@ -190,14 +205,18 @@ a {
   top: 31%;
   font-size: 2.5rem;
 }
-.homePage__header3 {
+.homePage__moreMe {
   position: relative;
   top: 40%;
   font-size: 1.3rem;
   color: white;
-  border: 1px solid white;
+  border: 1.5px solid white;
   border-radius: 0.5rem;
   padding: 0.5% 1%;
+}
+.homePage__moreMe:hover {
+  background-color: rgba(117, 167, 149, 0.431);
+  transition: ease-in-out 0.1s;
 }
 .homePage__parag {
   position: relative;
@@ -215,7 +234,7 @@ a {
 }
 .homePage__lang .lengenhe {
   text-decoration: none;
-  padding: 2% 7%;
+  padding: 3% 8%;
   margin: 0% 10%;
   border-radius: 0.5rem;
   background-color: white;

@@ -39,6 +39,21 @@ body {
 .about__contacts--icon {
   width: 50%;
 }
+.about .titleHref {
+  display: inline-block;
+}
+.about .titleHref:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 85%;
+  margin-left: -3rem;
+  background-color: #1b2d52;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2% 3%;
+  z-index: 1;
+}
 .about__backBtn {
   position: absolute;
   top: 5%;

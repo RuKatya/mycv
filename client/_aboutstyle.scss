@@ -43,6 +43,23 @@ body {
         }
     }
 
+    .titleHref {
+        display: inline-block;
+
+        &:hover::after {
+            content: attr(data-title);
+            position: absolute;
+            top: 85%;
+            margin-left: -3rem;
+            background-color: rgb(27, 45, 82);
+            font-size: 0.8rem;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 2% 3%;
+            z-index: 1;
+        }
+    }
+
     &__backBtn {
         position: absolute;
         top: 5%;
@@ -110,6 +127,8 @@ body {
         width: 100%;
     }
 }
+
+
 
 #btnHobbie {
     position: absolute;
