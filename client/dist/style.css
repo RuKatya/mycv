@@ -106,16 +106,89 @@ a {
   color: white;
   box-shadow: 0 0 5px #134855, 0 0 3px;
 }
+.aboutMe__contacts {
+  position: relative;
+  top: 4%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  padding: 1%;
+}
+.aboutMe__contacts--icon {
+  width: 70%;
+}
 .aboutMe__pic {
   height: 100vh;
+}
+.aboutMe .titleHref {
+  display: inline-block;
+}
+.aboutMe .titleHref:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 90%;
+  background-color: #c526da;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2%;
+  z-index: 1;
 }
 
 .mySkills__pic {
   height: 100vh;
 }
+.mySkills__header {
+  font-size: 4.5rem;
+  position: relative;
+  top: 45%;
+}
 
 .myWork {
   height: 100vh;
+}
+.myWork__content {
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+.myWork__works {
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+.myWork__projects {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+.myWork__projects--num {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  background-color: blue;
+  width: 90%;
+  justify-items: center;
+}
+.myWork__projects--num__header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.myWork__projects--num__about {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .hobbies--header {
