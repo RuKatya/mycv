@@ -45,6 +45,3 @@ function changeSlide(direction) {
     mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`
     sideBar.style.transform = `translateY(${activeSlideIndex * height}px)`
 }
-
-
-

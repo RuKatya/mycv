@@ -1,4 +1,37 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.about {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.about__backBtn {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 1.3rem;
+  padding: 0.5% 1%;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  color: white;
+}
+.about__backBtn:hover {
+  background-color: rgba(128, 128, 128, 0.3);
+  transition: ease-in-out 0.1s;
+}
+.about__content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+}
+
+#hobbies {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,18 +39,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Varela Round", sans-serif;
   height: 100vh;
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: white;
-  text-align: center;
-}
-
-p {
-  text-align: center;
   color: white;
 }
 
@@ -28,7 +51,6 @@ a {
 .container {
   position: relative;
   overflow: hidden;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -89,8 +111,8 @@ a {
 }
 .aboutMe__lang {
   position: absolute;
-  top: 2%;
-  left: 87%;
+  top: 4%;
+  left: 83%;
   color: #292727;
   font-size: 1rem;
 }
@@ -108,8 +130,8 @@ a {
 }
 .aboutMe__contacts {
   position: relative;
-  top: 4%;
-  left: 5%;
+  top: 2.5%;
+  left: 2%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -130,13 +152,27 @@ a {
 .aboutMe .titleHref:hover::after {
   content: attr(data-title);
   position: absolute;
-  top: 90%;
-  background-color: #c526da;
-  font-weight: bold;
+  top: 85%;
+  margin-left: -3rem;
+  background-color: #1b2d52;
+  font-size: 0.8rem;
   color: white;
   border-radius: 0.5rem;
-  padding: 2%;
+  padding: 2% 3%;
   z-index: 1;
+}
+.aboutMe .downloadCV {
+  padding: 0.5% 1%;
+  border: 2px solid yellow;
+  border-radius: 0.5rem;
+  color: white;
+  position: absolute;
+  top: 12%;
+  left: 3%;
+}
+.aboutMe .downloadCV:hover {
+  background-color: rgba(55, 197, 150, 0.8);
+  transition: ease-in-out 0.1s;
 }
 
 .mySkills__pic {
