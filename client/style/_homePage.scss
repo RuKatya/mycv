@@ -1,0 +1,115 @@
+.homePage {
+    text-align: center;
+    color: white;
+
+    &__header1 {
+        position: relative;
+        top: 29%;
+        font-size: 3rem;
+    }
+
+    &__header2 {
+        position: relative;
+        top: 31%;
+        font-size: 2.5rem;
+    }
+
+    &__moreMe {
+        position: relative;
+        top: 40%;
+        font-size: 1.3rem;
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 0.5rem;
+        padding: 0.5% 1%;
+
+        &:hover {
+            background-color: rgba(117, 167, 149, 0.431);
+            transition: ease-in-out 0.1s;
+        }
+    }
+
+    &__parag {
+        position: relative;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    &__lang {
+        position: absolute;
+        top: 4%;
+        left: 90%;
+        color: rgb(41, 39, 39);
+        font-size: 1rem;
+
+        .lengenhe {
+            text-decoration: none;
+            padding: 3% 8%;
+            margin: 0% 10%;
+            border-radius: 0.5rem;
+            background-color: white;
+        }
+
+        .active {
+            background-color: rgba(55, 197, 150, 0.8);
+            color: white;
+            box-shadow: 0 0 5px rgb(19, 72, 85), 0 0 3px;
+        }
+    }
+
+    &__contacts {
+        position: relative;
+        top: 2.5%;
+        left: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: 15%;
+        padding: 1%;
+
+        &--icon {
+            width: 70%;
+        }
+    }
+
+    &__pic {
+        height: 100vh;
+    }
+
+    .titleHref {
+        display: inline-block;
+
+        &:hover::after {
+            content: attr(data-title);
+            position: absolute;
+            top: 85%;
+            margin-left: -3rem;
+            background-color: rgb(27, 45, 82);
+            font-size: 0.8rem;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 2% 3%;
+            z-index: 1;
+        }
+    }
+
+    .downloadCV {
+        padding: 0.5% 1%;
+        border: 2px solid yellow;
+        border-radius: 0.5rem;
+        color: white;
+        position: absolute;
+        top: 12%;
+        left: 3%;
+
+        &:hover {
+            background-color: rgba(55, 197, 150, 0.8);
+            transition: ease-in-out 0.1s;
+        }
+
+    }
+}

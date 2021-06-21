@@ -137,60 +137,6 @@ body {
   cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Varela Round", sans-serif;
-  height: 100vh;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-}
-
-.sidebar {
-  height: 100%;
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.5s ease-in-out;
-}
-.sidebar > div {
-  width: 100%;
-  color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.main-slide {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 35%;
-  width: 65%;
-  transition: transform 0.5s ease-in-out;
-}
-.main-slide > div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-  width: 100%;
-}
-
 .homePage {
   text-align: center;
   color: white;
@@ -343,20 +289,6 @@ a {
   grid-row-end: 3;
 }
 
-.hobbies--header {
-  position: relative;
-  top: 20%;
-}
-.hobbies > p {
-  position: relative;
-  top: 30%;
-  font-size: 1.5rem;
-  padding: 2%;
-}
-.hobbies__pic {
-  height: 100vh;
-}
-
 .contact {
   height: 100vh;
   text-align: center;
@@ -383,6 +315,60 @@ a {
 }
 .contact__links > a {
   color: #2e2be2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  height: 100vh;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.sidebar > div {
+  width: 100%;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
 }
 
 button {

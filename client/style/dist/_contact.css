@@ -1,0 +1,27 @@
+.contact {
+  height: 100vh;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.contact__flex {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.contact__flex--header {
+  padding: 10% 0%;
+  font-size: 2.5rem;
+}
+.contact__flex--header__content {
+  padding: 5% 0%;
+}
+.contact__links {
+  padding: 3% 0%;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.contact__links > a {
+  color: #2e2be2;
+}

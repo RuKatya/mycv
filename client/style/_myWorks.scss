@@ -1,0 +1,51 @@
+.myWork {
+    height: 100vh;
+
+    &__content {
+        position: relative;
+        top: 10%;
+        left: 0%;
+    }
+
+    &__works {
+        position: relative;
+        top: 10%;
+        left: 0%;
+    }
+
+    &__projects {
+        position: relative;
+        top: 5%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+
+        &--num {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            color: white;
+            background-color: blue;
+            width: 90%;
+            justify-items: center;
+
+
+
+
+            &__header {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            &__about {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+        }
+    }
+}
