@@ -10,8 +10,7 @@
 </head>
 
 <body>
-    <div style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('../public/img/about1.jpg'); "
-        class="about">
+    <div class="about">
 
         <div>
             <a href="/" class="about__backBtn">Back to main</a>
@@ -30,31 +29,43 @@
         </span>
 
         <div class="about__content">
-            <h1>
+            <h1 class="about__content--header">
                 Katya Rukosuev
             </h1>
 
-            <p>
-                All my life I was sure that I want to go into a medical field. I wondered about studying Cardiology,
-                Physiotherapy or Nursing. After trying and failing in enrolling into those spheres, I decided to study
-                Medical Systems Management. It did not take long to understand that the medical sphere was much less
-                suitable for me than I anticipated and instead the Programing aspect of my courses were much
-                interesting. In
-                some ways I failed upwards, in the sense of my failings made me understand where my passion lays. Even
-                though it was clear I wouldn't work in the medical sphere after graduating, I kept on studying until I
-                finished my B.A.
+            <p class="about__content--paragOne">
+                All my life I was sure that I want to work in a medical field. I wondered about studying Physiotherapy
+                or Nursing. I decided to study Medical Systems Management and afterwards continue to nursing. It took
+                time to understand that taking care for patient is too much responsibility for me. While learning for my
+                degree programing courses made much more sense and rose my interest. Even though it was clear I wouldn't
+                work in the medical sphere after graduating, I kept on studying until I finished my B.A. to have a
+                profession.
+            </p>
+            <br />
+
+            <p class="about__content--paragTwo">
+                After graduating I took several courses from YouTube & paid courses in C, Java. While exploring
+                different languages I felt empowered, observing the code turning from nothing to something beneficial.
+                It got me excited. However, Javascript encouraged me to become a web developer. Combination of CSS, HTML
+                and more can provide seamless experience to user through the browser. Finaly I decided to turn it into a
+                career, that’s why you read my C.V.
             </p>
 
             <button id="btnHobbie">My hobbies</button>
             <div id="hobbies">
-                <button id="btnClose">X</button>
-                <div>
 
-                    <p>3D modeling, puzzles</p>
-                    <p>Programing</p>
-                    <p>Puzzle solving games</p>
-                    <p>Traveling</p>
-                    <p>Reading books</p>
+                <div id="hobbies__flex">
+                    <div id="hobbies__content">
+                        <button id="btnClose">X</button>
+                        <p>3D modeling, puzzles</p>
+                        <p>Programing</p>
+                        <p>Puzzle solving games</p>
+                        <p>Traveling</p>
+                        <p>Reading books</p>
+                    </div>
+                    <div>
+                        <img src="../public/img/lie.jpg" alt="cake" id="hobbies__img" />
+                    </div>
                 </div>
             </div>
         </div>

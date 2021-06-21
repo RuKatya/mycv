@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5) 60%), url("../public/img/about1.jpg");
 }
 .about__contacts {
   position: relative;
@@ -41,8 +42,8 @@ body {
 .about__backBtn {
   position: absolute;
   top: 5%;
-  left: 5%;
-  font-size: 1.3rem;
+  left: 7%;
+  font-size: 1.1rem;
   padding: 0.3% 0.8%;
   border: 1px solid white;
   border-radius: 0.7rem;
@@ -58,7 +59,64 @@ body {
   left: 10%;
   width: 80%;
 }
+.about__content--header {
+  font-size: 2.1rem;
+  margin: 2% 0%;
+}
+.about__content--paragOne {
+  font-size: 1.2rem;
+}
+.about__content--paragTwo {
+  font-size: 1.2rem;
+  width: 69%;
+}
 
 #hobbies {
+  position: fixed;
+  top: 60%;
+  left: 10%;
   display: none;
+  width: 50%;
+  background-color: black;
+  border: 1px solid white;
+}
+#hobbies__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#hobbies__content {
+  text-align: center;
+  width: 60%;
+}
+#hobbies__content > p {
+  font-size: 1.1rem;
+  padding: 1% 0;
+}
+#hobbies__img {
+  width: 100%;
+}
+
+#btnHobbie {
+  position: absolute;
+  top: 40vh;
+  background: none;
+  font-size: 1.5rem;
+  padding: 0.3% 0.8%;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  color: white;
+  cursor: pointer;
+}
+
+#btnClose {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.8% 1%;
+  cursor: pointer;
 }

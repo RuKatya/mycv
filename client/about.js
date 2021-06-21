@@ -1,6 +1,7 @@
 const hob = document.getElementById("hobbies")
 const hobBtn = document.getElementById("btnHobbie")
 const closeBtn = document.getElementById("btnClose")
+const about = document.querySelector('.about')
 
 hobBtn.addEventListener('click', () => {
     console.log('hi')

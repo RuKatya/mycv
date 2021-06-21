@@ -1,18 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  height: 100vh;
+  color: white;
+}
+
 .about {
   margin: 0;
   padding: 0;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5) 60%), url("../public/img/about1.jpg");
+}
+.about__contacts {
+  position: relative;
+  top: 2.5%;
+  left: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  padding: 1%;
+}
+.about__contacts--icon {
+  width: 50%;
 }
 .about__backBtn {
   position: absolute;
   top: 5%;
-  left: 5%;
-  font-size: 1.3rem;
-  padding: 0.5% 1%;
+  left: 7%;
+  font-size: 1.1rem;
+  padding: 0.3% 0.8%;
   border: 1px solid white;
   border-radius: 0.7rem;
   color: white;
@@ -27,9 +60,66 @@
   left: 10%;
   width: 80%;
 }
+.about__content--header {
+  font-size: 2.1rem;
+  margin: 2% 0%;
+}
+.about__content--paragOne {
+  font-size: 1.2rem;
+}
+.about__content--paragTwo {
+  font-size: 1.2rem;
+  width: 69%;
+}
 
 #hobbies {
+  position: fixed;
+  top: 60%;
+  left: 10%;
   display: none;
+  width: 50%;
+  background-color: black;
+  border: 1px solid white;
+}
+#hobbies__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#hobbies__content {
+  text-align: center;
+  width: 60%;
+}
+#hobbies__content > p {
+  font-size: 1.1rem;
+  padding: 1% 0;
+}
+#hobbies__img {
+  width: 100%;
+}
+
+#btnHobbie {
+  position: absolute;
+  top: 40vh;
+  background: none;
+  font-size: 1.5rem;
+  padding: 0.3% 0.8%;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  color: white;
+  cursor: pointer;
+}
+
+#btnClose {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.8% 1%;
+  cursor: pointer;
 }
 
 * {
@@ -86,49 +176,56 @@ a {
   width: 100%;
 }
 
-.aboutMe {
+.homePage {
   text-align: center;
   color: white;
 }
-.aboutMe__header1 {
+.homePage__header1 {
   position: relative;
-  top: 10%;
+  top: 29%;
+  font-size: 3rem;
 }
-.aboutMe__header2 {
+.homePage__header2 {
   position: relative;
-  top: 12%;
+  top: 31%;
+  font-size: 2.5rem;
 }
-.aboutMe__header3 {
+.homePage__header3 {
   position: relative;
-  top: 14%;
+  top: 40%;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.5% 1%;
 }
-.aboutMe__parag {
+.homePage__parag {
   position: relative;
   top: 20%;
   left: 10%;
   width: 80%;
   font-size: 1.3rem;
 }
-.aboutMe__lang {
+.homePage__lang {
   position: absolute;
   top: 4%;
-  left: 83%;
+  left: 90%;
   color: #292727;
   font-size: 1rem;
 }
-.aboutMe__lang .lengenhe {
+.homePage__lang .lengenhe {
   text-decoration: none;
-  padding: 1% 5%;
-  margin: 0% 5%;
+  padding: 2% 7%;
+  margin: 0% 10%;
   border-radius: 0.5rem;
   background-color: white;
 }
-.aboutMe__lang .active {
-  background-color: #075366;
+.homePage__lang .active {
+  background-color: rgba(55, 197, 150, 0.8);
   color: white;
   box-shadow: 0 0 5px #134855, 0 0 3px;
 }
-.aboutMe__contacts {
+.homePage__contacts {
   position: relative;
   top: 2.5%;
   left: 2%;
@@ -140,16 +237,16 @@ a {
   width: 15%;
   padding: 1%;
 }
-.aboutMe__contacts--icon {
+.homePage__contacts--icon {
   width: 70%;
 }
-.aboutMe__pic {
+.homePage__pic {
   height: 100vh;
 }
-.aboutMe .titleHref {
+.homePage .titleHref {
   display: inline-block;
 }
-.aboutMe .titleHref:hover::after {
+.homePage .titleHref:hover::after {
   content: attr(data-title);
   position: absolute;
   top: 85%;
@@ -161,7 +258,7 @@ a {
   padding: 2% 3%;
   z-index: 1;
 }
-.aboutMe .downloadCV {
+.homePage .downloadCV {
   padding: 0.5% 1%;
   border: 2px solid yellow;
   border-radius: 0.5rem;
@@ -170,7 +267,7 @@ a {
   top: 12%;
   left: 3%;
 }
-.aboutMe .downloadCV:hover {
+.homePage .downloadCV:hover {
   background-color: rgba(55, 197, 150, 0.8);
   transition: ease-in-out 0.1s;
 }

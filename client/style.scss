@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import 'aboutstyle.scss';
+@import '_aboutstyle.scss';
 
 * {
     box-sizing: border-box;
@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+
 }
 
 .container {
@@ -59,23 +60,30 @@ a {
 }
 
 
-.aboutMe {
+.homePage {
     text-align: center;
     color: white;
 
     &__header1 {
         position: relative;
-        top: 10%;
+        top: 29%;
+        font-size: 3rem;
     }
 
     &__header2 {
         position: relative;
-        top: 12%;
+        top: 31%;
+        font-size: 2.5rem;
     }
 
     &__header3 {
         position: relative;
-        top: 14%;
+        top: 40%;
+        font-size: 1.3rem;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        padding: 0.5% 1%;
     }
 
     &__parag {
@@ -89,20 +97,20 @@ a {
     &__lang {
         position: absolute;
         top: 4%;
-        left: 83%;
+        left: 90%;
         color: rgb(41, 39, 39);
         font-size: 1rem;
 
         .lengenhe {
             text-decoration: none;
-            padding: 1% 5%;
-            margin: 0% 5%;
+            padding: 2% 7%;
+            margin: 0% 10%;
             border-radius: 0.5rem;
             background-color: white;
         }
 
         .active {
-            background-color: rgb(7, 83, 102);
+            background-color: rgba(55, 197, 150, 0.8);
             color: white;
             box-shadow: 0 0 5px rgb(19, 72, 85), 0 0 3px;
         }
