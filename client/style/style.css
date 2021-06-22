@@ -205,12 +205,38 @@ body {
   transition: ease-in-out 0.1s;
 }
 
-.homePage__parag {
+.homePage__whatsup {
   position: relative;
-  top: 20%;
-  left: 10%;
-  width: 80%;
-  font-size: 1.3rem;
+  top: 50%;
+  left: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 3px solid #31ac31;
+  border-radius: 0.5rem;
+  width: 20%;
+  padding: 0.5% 1%;
+  background-color: #156215;
+  color: white;
+}
+
+.homePage__whatsup:hover {
+  background-color: rgba(17, 158, 17, 0.746);
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
+.homePage__whatsup > img {
+  width: 15%;
 }
 
 .homePage__lang {
@@ -308,8 +334,8 @@ body {
 .mySkills__header {
   font-size: 4.5rem;
   position: relative;
-  top: 45%;
-  left: 30%;
+  top: 42%;
+  left: 28%;
 }
 
 .mySkills__content {
@@ -382,7 +408,7 @@ body {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   color: white;
-  background-color: blue;
+  background-color: #0d0d75;
   width: 90%;
   justify-items: center;
 }
@@ -407,40 +433,13 @@ body {
 
 .contact {
   height: 100vh;
-  text-align: center;
-  font-size: 1.1rem;
 }
 
-.contact__flex {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.contact__flex--header {
-  padding: 10% 0%;
-  font-size: 2.5rem;
-}
-
-.contact__flex--header__content {
-  padding: 5% 0%;
-}
-
-.contact__links {
-  padding: 3% 0%;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.contact__links > a {
-  color: #2e2be2;
+.contact__header {
+  font-size: 4.5rem;
+  position: relative;
+  top: 42%;
+  left: 25%;
 }
 
 * {
