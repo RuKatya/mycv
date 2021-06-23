@@ -364,66 +364,74 @@
 
 .myWork {
   height: 100vh;
-  background: -webkit-gradient(linear, right top, left top, color-stop(18%, #10f5d4), color-stop(97%, #1bd161));
-  background: linear-gradient(270deg, #10f5d4 18%, #1bd161 97%);
-}
-
-.myWork__content {
-  position: relative;
-  top: 10%;
-  left: 0%;
-}
-
-.myWork__works {
-  position: relative;
-  top: 10%;
-  left: 0%;
+  background: linear-gradient(225deg, #74EBD5 0%, #7f8fe4 100%);
 }
 
 .myWork__projects {
   position: relative;
-  top: 5%;
-  left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 80vh;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.myWork__projects--num {
+.myWork__projects--content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  color: white;
-  background-color: #0d0d75;
-  width: 90%;
+  width: 40%;
   justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2% 5%;
+  color: black;
+  background-color: white;
+  border-radius: 1rem;
 }
 
-.myWork__projects--num__header {
+.myWork__projects--content__img {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
   -ms-grid-row: 1;
       grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
+  margin-top: 5%;
+  width: 70%;
+  border-radius: 1rem;
 }
 
-.myWork__projects--num__about {
+.myWork__projects--content__header {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  grid-row-end: 3;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.myWork__projects--content__parag {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.myWork__projects--content__link {
+  background-color: #dddddd;
+  color: #228b34;
+  border-radius: 0.5rem;
+  padding: 2% 4%;
+  margin: 5% 0%;
 }
 
 .myWorkLeft {
