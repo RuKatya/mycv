@@ -1,6 +1,8 @@
 .homePage {
+    height: 100vh;
     text-align: center;
     color: white;
+    background: linear-gradient(80deg, rgba(117, 100, 231, 1) 6%, rgba(164, 69, 215, 1) 97%);
 
     &__header1 {
         position: relative;
@@ -93,10 +95,6 @@
         }
     }
 
-    &__pic {
-        height: 100vh;
-    }
-
     .titleHref {
         display: inline-block;
 
@@ -121,7 +119,7 @@
         color: white;
         position: absolute;
         top: 12%;
-        left: 3%;
+        left: 3.3%;
 
         &:hover {
             background-color: rgba(55, 197, 150, 0.8);
@@ -129,4 +127,9 @@
         }
 
     }
+}
+
+.homePageLeft {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)60%), url('../public/img/firstPage.jpg');
+    height: 100vh;
 }

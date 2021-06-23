@@ -1,22 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-body {
-    font-family: 'Varela Round', sans-serif;
-    height: 100vh;
-    color: white;
-}
-
 .about {
     margin: 0;
     padding: 0;
@@ -128,14 +109,12 @@ body {
     }
 }
 
-
-
 #btnHobbie {
     position: absolute;
     top: 40vh;
     // left: 7vh;
     background: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0.3% 0.8%;
     border: 1px solid white;
     border-radius: 0.7rem;
@@ -146,7 +125,7 @@ body {
 #btnClose {
     position: absolute;
     top: 5%;
-    left: 3%;
+    left: 2.5%;
     border: 1px solid white;
     background: none;
     color: white;

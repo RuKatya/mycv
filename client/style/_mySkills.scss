@@ -1,14 +1,6 @@
 .mySkills {
-    &__pic {
-        height: 100vh;
-    }
-
-    &__header {
-        font-size: 4.5rem;
-        position: relative;
-        top: 42%;
-        left: 28%;
-    }
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(55, 67, 226, 0.5), rgba(40, 28, 153, 0.4)60%), url('../public/img/skill.jpg');
 
     &__content {
         position: relative;
@@ -33,8 +25,16 @@
             }
         }
     }
+}
 
+.mySkillsLeft {
+    background: linear-gradient(113deg, #d61013 0%, #784BA0 50%, #2B86C5 100%);
+    height: 100vh;
 
-
-
+    &__header {
+        font-size: 4.5rem;
+        position: relative;
+        top: 42%;
+        left: 28%;
+    }
 }

@@ -11,46 +11,34 @@
 
 <body>
     <div class="container">
-
+        <!-- LEFT SIDE -->
         <div class="sidebar">
-            <!-- LEFT SIDE -->
             <!-- CONTACT WITH ME -->
-            <div style="background: linear-gradient(270deg, rgba(19,120,185,1) 20%, rgba(31,205,226,1) 81%);"
-                class="contact">
-                <h1 class="contact__header">Contacts</h1>
+            <div class="contactLeft">
+                <h1 class="contactLeft__header">Contacts</h1>
             </div>
 
             <!-- MY WORK -->
-            <div style="background: linear-gradient(270deg, rgba(16,245,212,1) 18%, rgba(27,209,97,1) 97%)"
-                class="myWork">
-                <div class="myWork__content">
+            <div class="myWorkLeft">
+                <div class="myWorkLeft__header">
                     <h1>My work</h1>
                 </div>
-
-
             </div>
 
-
             <!-- MY SKILLS -->
-            <div style="background: linear-gradient(113deg, #d61013 0%, #784BA0 50%, #2B86C5 100%);"
-                class="mySkills__pic">
-                <h1 class="mySkills__header">My skills</h1>
+            <div class="mySkillsLeft">
+                <h1 class="mySkillsLeft__header">My skills</h1>
             </div>
 
             <!-- ABOUT ME -->
-            <div style="
-            background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)60%), url('public/img/firstPage.jpg')"
-                class="homePage__pic">
+            <div class="homePageLeft">
             </div>
         </div>
 
-
+        <!-- RIGHT SIDE -->
         <div class="main-slide">
-
-            <!-- RIGHT SIDE -->
             <!-- ABOUT ME -->
-            <div style="background: linear-gradient(80deg, rgba(117,100,231,1) 6%, rgba(164,69,215,1) 97%);"
-                class="homePage">
+            <div class="homePage">
                 <span class="homePage__contacts">
                     <a href="https://github.com/RuKatya" data-title="Github" class="titleHref">
                         <img src="public/icons/git.png" alt="Github" class="homePage__contacts--icon" />
@@ -78,8 +66,7 @@
 
 
             <!-- MY SKILLS -->
-            <div
-                style="background-image: linear-gradient( to bottom, rgba(46, 60, 255, 0.5), rgba(43, 20, 255, 0.4)60%), url('public/img/skill.jpg')">
+            <div class="mySkills">
                 <span class="mySkills__content">
                     <span class="mySkills__content--front">
                         <h1 class="mySkills__content--header">Front-end</h1>
@@ -107,8 +94,7 @@
             </div>
 
             <!-- MY WORK -->
-            <div
-                style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('public/img/works.jpg');">
+            <div class="myWork">
                 <span class="myWork__projects">
                     <span class="myWork__projects--num">
                         <h2 class="myWork__projects--num__header">
@@ -151,45 +137,47 @@
             </div>
 
             <!-- CONTACT WITH ME -->
-            <div style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('public/img/connecting.jpg');"
-                class="contact">
-                <span class="contact__flex">
-                    <!-- Phone -->
-                    <span>
-                        <h2 class="contact__flex--header">Phone</h2>
+            <div class="contact">
+                <span>
+                    <span class="contact__flex">
+                        <!-- Phone -->
+                        <span>
+                            <h2 class="contact__flex--header">Phone</h2>
 
-                        <p dir="ltr" class="contact__links"><a href="tel:+972526299431">+972-52-629-9461</a></p>
-                    </span>
+                            <p dir="ltr" class="contact__links"><a href="tel:+972526299431">+972-52-629-9431</a></p>
+                        </span>
 
-                    <!-- Email -->
-                    <span>
-                        <h2 class="contact__flex--header">Email</h2>
+                        <!-- Email -->
+                        <span>
+                            <h2 class="contact__flex--header">Email</h2>
 
-                        <p class="contact__links"><a
-                                href="mailto:katya.ru.fullstack@gmail.com">katya.ru.fullstack@gmail.com</a></p>
-                    </span>
+                            <p class="contact__links"><a
+                                    href="mailto:katya.ru.fullstack@gmail.com">katya.ru.fullstack@gmail.com</a></p>
+                        </span>
 
-                    <!-- Github -->
-                    <span>
-                        <h2 class="contact__flex--header">Github</h2>
+                        <!-- Github -->
+                        <span>
+                            <h2 class="contact__flex--header">Github</h2>
 
-                        <p class="contact__links"><a href="https://github.com/RuKatya">https://github.com/RuKatya</a>
-                        </p>
-                    </span>
+                            <p class="contact__links"><a
+                                    href="https://github.com/RuKatya">https://github.com/RuKatya</a>
+                            </p>
+                        </span>
 
-                    <!-- Linkedin -->
-                    <span>
-                        <h2 class="contact__flex--header">Linkedin</h2>
+                        <!-- Linkedin -->
+                        <span>
+                            <h2 class="contact__flex--header">Linkedin</h2>
 
-                        <p class="contact__links"><a
-                                href="https://www.linkedin.com/in/katya-rukosuev/">https://www.linkedin.com/in/katya-rukosuev/</a>
-                        </p>
+                            <p class="contact__links"><a
+                                    href="https://www.linkedin.com/in/katya-rukosuev/">https://www.linkedin.com/in/katya-rukosuev/</a>
+                            </p>
+                        </span>
                     </span>
 
                     <!-- WhatsApp -->
                     <span>
                         <a href="https://wa.me/972526299431" rel="noopener noreferrer" target="_blank"
-                            class="homePage__whatsup"><img src="../public/icons/wup.png" />Send me
+                            class="contact__whatsapp"><img src="../public/icons/wup.png" />Send me
                             WhatsApp</a>
                     </span>
                 </span>
