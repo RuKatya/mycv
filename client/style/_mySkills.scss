@@ -30,11 +30,12 @@
 .mySkillsLeft {
     background: linear-gradient(113deg, #d61013 0%, #784BA0 50%, #2B86C5 100%);
     height: 100vh;
+    text-align: center;
 
     &__header {
         font-size: 4.5rem;
         position: relative;
         top: 42%;
-        left: 28%;
+
     }
 }

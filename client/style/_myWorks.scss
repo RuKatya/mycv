@@ -54,8 +54,12 @@
 .myWorkLeft {
     background: linear-gradient(270deg, rgba(16, 245, 212, 1) 18%, rgba(27, 209, 97, 1) 97%);
     height: 100vh;
+    text-align: center;
 
     &__header {
-        font-size: 5rem;
+        font-size: 4.5rem;
+        position: relative;
+        top: 42%;
+
     }
 }

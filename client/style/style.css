@@ -353,13 +353,13 @@
 .mySkillsLeft {
   background: linear-gradient(113deg, #d61013 0%, #784BA0 50%, #2B86C5 100%);
   height: 100vh;
+  text-align: center;
 }
 
 .mySkillsLeft__header {
   font-size: 4.5rem;
   position: relative;
   top: 42%;
-  left: 28%;
 }
 
 .myWork {
@@ -430,10 +430,13 @@
   background: -webkit-gradient(linear, right top, left top, color-stop(18%, #10f5d4), color-stop(97%, #1bd161));
   background: linear-gradient(270deg, #10f5d4 18%, #1bd161 97%);
   height: 100vh;
+  text-align: center;
 }
 
 .myWorkLeft__header {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  position: relative;
+  top: 42%;
 }
 
 .contact {
