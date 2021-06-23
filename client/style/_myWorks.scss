@@ -1,6 +1,6 @@
 .myWork {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('../public/img/works.jpg');
+    background: linear-gradient(270deg, rgba(16, 245, 212, 1) 18%, rgba(27, 209, 97, 1) 97%);
 
     &__content {
         position: relative;
@@ -52,7 +52,7 @@
 }
 
 .myWorkLeft {
-    background: linear-gradient(270deg, rgba(16, 245, 212, 1) 18%, rgba(27, 209, 97, 1) 97%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('../public/img/works.jpg');
     height: 100vh;
     text-align: center;
 

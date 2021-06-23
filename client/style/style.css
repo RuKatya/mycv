@@ -364,8 +364,8 @@
 
 .myWork {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(60%, rgba(0, 0, 0, 0.5))), url("../public/img/works.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5) 60%), url("../public/img/works.jpg");
+  background: -webkit-gradient(linear, right top, left top, color-stop(18%, #10f5d4), color-stop(97%, #1bd161));
+  background: linear-gradient(270deg, #10f5d4 18%, #1bd161 97%);
 }
 
 .myWork__content {
@@ -427,8 +427,8 @@
 }
 
 .myWorkLeft {
-  background: -webkit-gradient(linear, right top, left top, color-stop(18%, #10f5d4), color-stop(97%, #1bd161));
-  background: linear-gradient(270deg, #10f5d4 18%, #1bd161 97%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(60%, rgba(0, 0, 0, 0.5))), url("../public/img/works.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5) 60%), url("../public/img/works.jpg");
   height: 100vh;
   text-align: center;
 }
