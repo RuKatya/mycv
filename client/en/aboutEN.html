@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="about">
+    <div class="about wrapper">
 
         <div>
             <a href="/" class="about__backBtn">Back to main</a>
@@ -28,7 +28,7 @@
             </a>
         </span>
 
-        <div class="about__content">
+        <div class="about__content lock-padding">
             <h1 class="about__content--header">
                 Katya Rukosuev
             </h1>
@@ -55,21 +55,29 @@
         </div>
 
 
-        <a href="#hobbies"> Hobbies</a>
+        <a href="#hobbies" class="popup-link"> Hobbies</a>
 
         <div id="hobbies" class="popup">
             <a href="/aboutmeEn" class="popup__area"></a>
             <div class="popup__body">
-                <div class="popup__content">
-                    <a href="/aboutmeEn" class="popup__close">X</a>
-                    <div class="popup__title">HOBBIES</div>
-                    <div class="popup__text">
-                        <p>3D modeling, puzzles</p>
-                        <p>Programing</p>
-                        <p>Puzzle solving games</p>
-                        <p>Traveling abroad</p>
-                        <p>Reading books</p>
+                <div class="popup__content ">
+                    <a href="/aboutmeEn" class="popup__close close-popup">Close</a>
+                    <div class="popup__title">Hobbies</div>
+                    <div class="hobbies__flex">
+                        <div class="popup__text hobbies__flex--text">
+                            <p>3D modeling, puzzles</p>
+                            <p>Programing</p>
+                            <p>Puzzle solving games</p>
+                            <p>Traveling abroad</p>
+                            <p>Reading books</p>
+                        </div>
+                        <div>
+                            <img src="../public/img/lie.jpg" alt="cake" class="hobbies__flex--img" />
+                        </div>
+
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -93,7 +101,10 @@
         </div> -->
     </div>
 
-    <script src="../about.js"></script>
+    <script src="../js/about.js"></script>
+    <script src="../js/popup.js"></script>
+
+
 </body>
 
 </html>
