@@ -1,20 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  font-family: "Varela Round", sans-serif;
-  height: 100vh;
-  color: white;
-}
-
 .about {
   margin: 0;
   padding: 0;
@@ -69,69 +52,73 @@ body {
   transition: ease-in-out 0.1s;
 }
 .about__content {
+  text-align: center;
   position: absolute;
-  top: 20%;
-  left: 10%;
-  width: 80%;
+  top: 12%;
+  left: 28.5%;
+  width: 43%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 .about__content--header {
   font-size: 2.1rem;
-  margin: 2% 0%;
 }
 .about__content--paragOne {
-  font-size: 1.2rem;
-}
-.about__content--paragTwo {
-  font-size: 1.2rem;
-  width: 69%;
+  padding: 2% 0%;
 }
 
-#hobbies {
+.popup {
   position: fixed;
-  top: 60%;
-  left: 10%;
-  display: none;
-  width: 50%;
-  background-color: black;
-  border: 1px solid white;
-}
-#hobbies__flex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-#hobbies__content {
-  text-align: center;
-  width: 60%;
-}
-#hobbies__content > p {
-  font-size: 1.1rem;
-  padding: 1% 0;
-}
-#hobbies__img {
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
 }
-
-#btnHobbie {
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+.popup.open .popup__content {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+.popup__area {
   position: absolute;
-  top: 40vh;
-  background: none;
-  font-size: 1.5rem;
-  padding: 0.3% 0.8%;
-  border: 1px solid white;
-  border-radius: 0.7rem;
-  color: white;
-  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
-
-#btnClose {
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 2%;
+}
+.popup__content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 3%;
+  position: relative;
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+  transform: translate(0px, -100%);
+}
+.popup__close {
   position: absolute;
   top: 5%;
-  left: 3%;
-  border: 1px solid white;
-  background: none;
-  color: white;
-  border-radius: 0.2rem;
-  padding: 0.8% 1%;
-  cursor: pointer;
+  left: 5%;
+  font-size: 1.1rem;
+}
+.popup__title {
+  font-size: 1.5rem;
+  margin: 0 0 10% 0;
 }
