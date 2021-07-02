@@ -90,6 +90,17 @@
   padding: 2% 0%;
 }
 
+.hobbiesBtn {
+  color: white;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 85%;
+  left: 8%;
+  border: 1px solid white;
+  border-radius: 0.8rem;
+  padding: 0.5% 0.8%;
+}
+
 .hobbies__flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,7 +117,13 @@
 
 .hobbies__flex--text {
   width: 100%;
+  font-size: 1.2rem;
   text-align: center;
+  padding: 10% 0% 2% 0%;
+}
+
+.hobbies__flex--text > p {
+  padding: 1.5% 0%;
 }
 
 .hobbies__flex--img {
@@ -158,14 +175,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 5% 2%;
+  padding: 3% 1%;
 }
 
 .popup__content {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   max-width: 800px;
-  padding: 3%;
+  padding: 1%;
   position: relative;
   opacity: 0;
   -webkit-transition: all 0.8s ease 0s;
@@ -179,11 +196,19 @@
   top: 5%;
   left: 3%;
   font-size: 1.1rem;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5% 1%;
 }
 
 .popup__title {
+  position: absolute;
+  top: 25%;
+  left: 19%;
   font-size: 1.5rem;
-  margin: 0 0 2% 0;
+  margin: 0 0 4% 0;
+  border-bottom: 1px solid black;
 }
 
 .homePage {
