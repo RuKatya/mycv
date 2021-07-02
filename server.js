@@ -11,17 +11,19 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static(path.resolve(__dirname, 'client')))
 
 //ROUTES
-const enRoute = require('./route/enRoute')
-const heRoute = require('./route/heRoute')
-const aboutRoute = require('./route/aboutRoute')
+const enRoute = require('./route/enRoute/enRoute')
+const heRoute = require('./route/heRoute/heRoute')
+const aboutRouteEN = require('./route/enRoute/aboutRouteEN')
+const aboutRouteHE = require('./route/heRoute/aboutRouteHE')
 
 app.use('/english', enRoute)
 app.use('/hebrew', heRoute)
-app.use('/aboutme', aboutRoute)
+app.use('/aboutmeEn', aboutRouteEN)
+app.use('/aboutmeHe', aboutRouteHE)
 
 app.get('/', (req, res) => {
     res.status(200) //default status
-    res.sendFile(path.join(__dirname, 'client', 'en', 'index.html'))
+    res.sendFile(path.join(__dirname, 'client', 'en', 'indexEN.html'))
 })
 
 app.get('/download', (req, res) => {
