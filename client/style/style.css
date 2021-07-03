@@ -343,7 +343,7 @@
 .homePage__whatsup {
   position: relative;
   top: 50%;
-  left: 40%;
+  left: 42%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +449,7 @@
   color: white;
   position: absolute;
   top: 12%;
-  left: 3.3%;
+  left: 4.5%;
 }
 
 .homePage .downloadCV:hover {
@@ -681,7 +681,7 @@
   .homePage__whatsup {
     top: 50%;
     left: 17.5%;
-    width: 65%;
+    width: 70%;
     padding: 1.5% 2%;
   }
   .homePage__whatsup > img {
@@ -791,7 +791,7 @@
     font-size: 1.2rem;
   }
   .mySkillsLeft__header {
-    font-size: 3rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -836,7 +836,7 @@
   }
   .contact__whatsapp {
     top: -65%;
-    left: 4%;
+    left: 12%;
     width: 35%;
     padding: 1% 1.5%;
   }
