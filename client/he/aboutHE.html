@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
-    <title>פרטים עליי</title>
+    <link rel="shortcut icon" href="../public/icons/1.ico" type="image/png">
+    <title>קטיה רו | פרטים</title>
 </head>
 
 <body>
-    <div class="about">
+    <div class="about wrapper">
 
         <div>
-            <a href="/hebrew" class="about__backBtn">חזרה
-            </a>
+            <a href="/hebrew" class="about__backBtn">חזרה לדף ראשי</a>
         </div>
 
         <span class="about__contacts">
@@ -29,23 +29,26 @@
             </a>
         </span>
 
-        <div class="about__content">
-            <h1 class="about__content--header" dir="rtl">
+        <div class="about__content lock-padding">
+            <h1 class="about__content--header">
                 קטיה רוקוסוייב
             </h1>
 
-            <p class="about__content--paragOne" dir="rtl">
+            <p class="about__content--paragOne">
                 כל חיי הייתי בטוחה שאני רוצה לעבוד בתחום הרפואה. התלבטתי בין לימודי פיזיותרפיה לבין סיעוד. לבסוף, החלטתי
                 ללמוד תואר במנהל מערכות בריאות ולהמשיך ללימודי סיעוד. לקח לי זמן להבין שסיעוד זאת אחריות גדולה
                 מדי
                 בשבילי. סיימתי את
                 הלימודים, למרות שהיה ברור במהלך התואר
                 שאני
-                לא אעבוד בתחום רפואה.במהלך הלימודי התואר, השתתפתי בקורס תכנות. התחלתי להתעניין ולהתלהב מהתחום של תכנות.
+                לא אעבוד בתחום רפואה.במהלך הלימודי התואר, השתתפתי בקורס תכנות. התחלתי להתעניין ולהתלהב מהתחום של תכנות
+
+
             </p>
             <br />
 
-            <p class="about__content--paragTwo" dir="rtl">
+            <p class="about__content--paragTwo">
+
                 לאחר סיום הלימודים למדתי מספר קורסים מיוטיוב וקורסים בתשלום בשפת
                 <bdi>C</bdi>
                 ו
@@ -57,29 +60,42 @@
                 <bdi>CSS</bdi>
                 וכלים נוספים יכול לספק חוויה מהנה למשתמש. לבסוף החלטתי להפוך תכנות לקריירה שלי, וזאת הסיבה למה אתם
                 קוראים את הקורות חיים שלי.
+
+
+
+
+
             </p>
+        </div>
 
-            <button id="btnHobbie">התחביבים שלי</button>
-            <div id="hobbies">
 
-                <div id="hobbies__flex">
-                    <div id="hobbies__content">
-                        <button id="btnClose">סגור</button>
-                        <p>פזלים תלת מימדים</p>
-                        <p>תכנות</p>
-                        <p>לטייל בחו"ל</p>
-                        <p>משחקי חידות</p>
-                        <p>קריאת ספרים</p>
-                    </div>
-                    <div>
-                        <img src="../public/img/lie.jpg" alt="cake" id="hobbies__img" />
+        <a href="#hobbies" class="popup-link hobbiesBtn">התחביבים שלי</a>
+
+        <div id="hobbies" class="popup">
+            <a href="/aboutmeEn" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content ">
+                    <a href="/aboutmeEn" class="popup__close close-popup">סגור</a>
+                    <div class="popup__title">התחביבים</div>
+                    <div class="hobbies__flex">
+                        <div class="popup__text hobbies__flex--text">
+                            <p>פזלים תלת מימדים</p>
+                            <p>תכנות</p>
+                            <p>לטייל בחו"ל</p>
+                            <p>משחקי חידות</p>
+                            <p>קריאת ספרים</p>
+
+                        </div>
+                        <div>
+                            <img src="../public/img/lie.jpg" alt="cake" class="hobbies__flex--img" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="../about.js"></script>
+    <script src="../js/popup.js"></script>
 </body>
 
 </html>
