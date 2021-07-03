@@ -217,6 +217,94 @@
   border-bottom: 1px solid black;
 }
 
+.contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(60%, rgba(0, 0, 0, 0.8))), url("../public/img/connecting.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8) 60%), url("../public/img/connecting.jpg");
+  height: 100vh;
+  text-align: center;
+}
+
+.contact__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 70vh;
+  width: 80%;
+  position: relative;
+  top: 17%;
+  left: 10%;
+  background-color: rgba(1, 151, 251, 0.1);
+  border-radius: 1rem;
+}
+
+.contact__flex--header {
+  border-bottom: 1px solid white;
+  width: 20%;
+  margin: 0% 0% 2% 40%;
+  font-size: 1.8rem;
+}
+
+.contact__links {
+  font-size: 1.3rem;
+}
+
+.contact__links > a {
+  color: #f1cfae;
+}
+
+.contact__whatsapp {
+  position: relative;
+  top: -65%;
+  left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 3px solid #267426;
+  border-radius: 0.5rem;
+  width: 20%;
+  padding: 0.5% 1%;
+  color: white;
+}
+
+.contact__whatsapp:hover {
+  background-color: rgba(177, 228, 190, 0.2);
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
+.contact__whatsapp > img {
+  width: 15%;
+}
+
+.contactLeft {
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #1378b9), color-stop(81%, #1fcde2));
+  background: linear-gradient(270deg, #1378b9 20%, #1fcde2 81%);
+  height: 100vh;
+  text-align: center;
+}
+
+.contactLeft__header {
+  font-size: 4.5rem;
+  position: relative;
+  top: 42%;
+}
+
 .homePage {
   height: 100vh;
   text-align: center;
@@ -510,92 +598,361 @@
   top: 42%;
 }
 
-.contact {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(60%, rgba(0, 0, 0, 0.8))), url("../public/img/connecting.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.8) 60%), url("../public/img/connecting.jpg");
-  height: 100vh;
-  text-align: center;
+@media only screen and (max-width: 1024px) {
+  .homePage__header1 {
+    top: 32%;
+    font-size: 3rem;
+  }
+  .homePage__header2 {
+    width: 90%;
+    top: 35%;
+    left: 5%;
+  }
+  .homePage__moreMe {
+    top: 45%;
+    font-size: 1.3rem;
+  }
+  .homePage__whatsup {
+    top: 50%;
+    left: 35%;
+    width: 30%;
+  }
+  .homePage__lang {
+    top: 3%;
+    left: 85%;
+  }
+  .homePage__contacts {
+    width: 22%;
+  }
+  .homePage .downloadCV {
+    top: 7%;
+    left: 4%;
+  }
 }
 
-.contact__flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  height: 70vh;
-  width: 80%;
-  position: relative;
-  top: 17%;
-  left: 10%;
-  background-color: rgba(1, 151, 251, 0.1);
-  border-radius: 1rem;
+@media only screen and (max-width: 770px) {
+  .homePage__header1 {
+    top: 32%;
+    font-size: 3rem;
+  }
+  .homePage__header2 {
+    width: 90%;
+    top: 35%;
+    left: 5%;
+  }
+  .homePage__moreMe {
+    top: 45%;
+    font-size: 1.3rem;
+    padding: 1% 2%;
+  }
+  .homePage__whatsup {
+    top: 50%;
+    left: 32.5%;
+    width: 35%;
+    padding: 1% 1.5%;
+  }
+  .homePage__whatsup > img {
+    width: 15%;
+  }
+  .homePage__lang {
+    top: 3%;
+    left: 80%;
+  }
+  .homePage__contacts {
+    width: 27%;
+  }
+  .homePage .downloadCV {
+    top: 8%;
+    left: 4%;
+  }
 }
 
-.contact__flex--header {
-  border-bottom: 1px solid white;
-  width: 20%;
-  margin: 0% 0% 2% 40%;
-  font-size: 1.8rem;
+@media only screen and (max-width: 415px) {
+  .homePage__header1 {
+    top: 32%;
+    font-size: 2rem;
+  }
+  .homePage__header2 {
+    width: 90%;
+    top: 35%;
+    left: 5%;
+    font-size: 1.5rem;
+  }
+  .homePage__whatsup {
+    top: 50%;
+    left: 17.5%;
+    width: 65%;
+    padding: 1.5% 2%;
+  }
+  .homePage__whatsup > img {
+    width: 15%;
+  }
+  .homePage__lang {
+    top: 3%;
+    left: 70%;
+  }
+  .homePage__contacts {
+    width: 45%;
+  }
+  .homePage .downloadCV {
+    padding: 1% 1.5%;
+    top: 8%;
+    left: 4%;
+  }
 }
 
-.contact__links {
-  font-size: 1.3rem;
+@media only screen and (max-width: 375px) {
+  .homePage__header1 {
+    font-size: 1.8rem;
+  }
+  .homePage__header2 {
+    font-size: 1.3rem;
+  }
+  .homePage__whatsup {
+    left: 15%;
+  }
+  .homePage__lang {
+    left: 65%;
+  }
+  .homePage__contacts {
+    width: 50%;
+  }
+  .homePage .downloadCV {
+    top: 9%;
+    left: 4%;
+  }
 }
 
-.contact__links > a {
-  color: #f1cfae;
+@media only screen and (max-width: 320px) {
+  .homePage__header1 {
+    font-size: 1.5rem;
+  }
+  .homePage__header2 {
+    font-size: 1.2rem;
+  }
+  .homePage__moreMe {
+    font-size: 1.1rem;
+    padding: 1.5% 2.5%;
+  }
+  .homePage__whatsup {
+    left: 10%;
+    width: 80%;
+  }
+  .homePage__lang {
+    left: 60%;
+  }
+  .homePage__contacts {
+    width: 55%;
+  }
+  .homePage .downloadCV {
+    top: 11%;
+    left: 4%;
+  }
 }
 
-.contact__whatsapp {
-  position: relative;
-  top: -65%;
-  left: 4%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border: 3px solid #267426;
-  border-radius: 0.5rem;
-  width: 20%;
-  padding: 0.5% 1%;
-  color: white;
+@media only screen and (max-width: 1024px) {
+  .mySkills {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 67, 226, 0.5)), color-stop(60%, rgba(40, 28, 153, 0.4))), url("../public/img/SkillsMy.jpg");
+    background-image: linear-gradient(to bottom, rgba(55, 67, 226, 0.5), rgba(40, 28, 153, 0.4) 60%), url("../public/img/SkillsMy.jpg");
+  }
+  .mySkills__content {
+    top: 30%;
+  }
+  .mySkills__content--parag {
+    font-size: 1.5rem;
+  }
+  .mySkills__content--parag > p {
+    padding: 2.2% 0%;
+  }
+  .mySkillsLeft__header {
+    font-size: 4.5rem;
+    top: 48%;
+  }
 }
 
-.contact__whatsapp:hover {
-  background-color: rgba(177, 228, 190, 0.2);
-  -webkit-transition: ease-in-out 0.1s;
-  transition: ease-in-out 0.1s;
+@media only screen and (max-width: 770px) {
+  .mySkills__content {
+    top: 25%;
+  }
+  .mySkillsLeft__header {
+    font-size: 4rem;
+  }
 }
 
-.contact__whatsapp > img {
-  width: 15%;
+@media only screen and (max-width: 415px) {
+  .mySkills__content {
+    top: 20%;
+    text-shadow: 0px 0px 5px #574f4f, 0px 0px 10px #3d3a3a;
+  }
+  .mySkills__content--header {
+    font-size: 2rem;
+  }
+  .mySkills__content--parag {
+    font-size: 1.2rem;
+  }
+  .mySkillsLeft__header {
+    font-size: 3rem;
+  }
 }
 
-.contactLeft {
-  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #1378b9), color-stop(81%, #1fcde2));
-  background: linear-gradient(270deg, #1378b9 20%, #1fcde2 81%);
-  height: 100vh;
-  text-align: center;
+@media only screen and (max-width: 375px) {
+  .mySkills__content {
+    top: 17%;
+  }
+  .mySkills__content--header {
+    font-size: 1.8rem;
+  }
+  .mySkills__content--parag {
+    font-size: 1.2rem;
+  }
+  .mySkillsLeft__header {
+    font-size: 2.5rem;
+  }
 }
 
-.contactLeft__header {
-  font-size: 4.5rem;
-  position: relative;
-  top: 42%;
+@media only screen and (max-width: 320px) {
+  .mySkills__content {
+    top: 15%;
+  }
+  .mySkills__content--header {
+    font-size: 1.5rem;
+  }
+  .mySkills__content--parag {
+    font-size: 1.1rem;
+  }
+  .mySkillsLeft__header {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact__flex--header {
+    width: 20%;
+    margin: 0% 0% 2% 40%;
+    font-size: 2.3rem;
+  }
+  .contact__links {
+    font-size: 1.7rem;
+  }
+  .contact__whatsapp {
+    top: -65%;
+    left: 4%;
+    width: 35%;
+    padding: 1% 1.5%;
+  }
+  .contactLeft__header {
+    font-size: 4rem;
+    top: 44%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .contact__flex {
+    width: 85%;
+    left: 7.5%;
+  }
+  .contact__flex--header {
+    width: 35%;
+    margin: 0% 0% 2% 32.5%;
+    font-size: 2rem;
+  }
+  .contact__links {
+    font-size: 1.5rem;
+  }
+  .contact__whatsapp {
+    top: -63%;
+    left: 10%;
+    width: 45%;
+    padding: 1% 1.5%;
+  }
+  .contactLeft__header {
+    font-size: 3rem;
+    top: 46%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .contact__flex {
+    height: 80vh;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+  }
+  .contact__flex--header {
+    width: 35%;
+    margin: 0% 0% 2% 32.5%;
+    font-size: 1.5rem;
+  }
+  .contact__links {
+    font-size: 0.9rem;
+  }
+  .contact__whatsapp {
+    top: -78%;
+    left: 10%;
+    width: 80%;
+    padding: 1.5% 2%;
+  }
+  .contact__whatsapp > img {
+    width: 15%;
+  }
+  .contactLeft__header {
+    font-size: 1.8rem;
+    top: 46%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .contact__flex {
+    height: 83vh;
+    width: 90%;
+    top: 13%;
+  }
+  .contact__flex--header {
+    width: 45%;
+    margin: 0% 0% 2% 27.5%;
+    font-size: 1.3rem;
+  }
+  .contact__links {
+    font-size: 0.8rem;
+  }
+  .contact__whatsapp {
+    left: 7.5%;
+    width: 85%;
+    padding: 1.5% 2%;
+  }
+  .contact__whatsapp > img {
+    width: 15%;
+  }
+  .contactLeft__header {
+    font-size: 1.5rem;
+    top: 46%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .contact__flex {
+    top: 15.5%;
+  }
+  .contact__flex--header {
+    width: 45%;
+    margin: 0% 0% 2% 27.5%;
+    font-size: 1.3rem;
+  }
+  .contact__links {
+    font-size: 0.7rem;
+  }
+  .contact__whatsapp {
+    left: 2.5%;
+    width: 95%;
+    padding: 1% 1.5%;
+  }
+  .contact__whatsapp > img {
+    width: 12%;
+  }
+  .contactLeft__header {
+    font-size: 1.3rem;
+    top: 50%;
+  }
 }
 
 * {
@@ -681,7 +1038,7 @@ button:focus {
 .container .controls button {
   position: absolute;
   left: 35%;
-  top: 50%;
+  top: 75%;
   z-index: 100;
 }
 

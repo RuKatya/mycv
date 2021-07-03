@@ -1,9 +1,15 @@
+//Components
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import '_aboutstyle.scss';
-@import '_homePage.scss';
-@import '_mySkills.scss';
-@import '_myWorks.scss';
-@import '_contact.scss';
+@import './components/aboutstyle';
+@import './components/contact';
+@import './components/homePage';
+@import './components/mySkills';
+@import './components/myWorks';
+
+//MEDIA
+@import './media/_mediaHome.scss';
+@import './media/_mediaSkills.scss';
+@import './media/_mediaContact.scss';
 
 * {
     box-sizing: border-box;
@@ -19,13 +25,11 @@ body {
 
 a {
     text-decoration: none;
-
 }
 
 .container {
     position: relative;
     overflow: hidden;
-    // width: 100vw;
     height: 100vh;
 }
 
@@ -85,7 +89,7 @@ button {
 .container .controls button {
     position: absolute;
     left: 35%;
-    top: 50%;
+    top: 75%;
     z-index: 100;
 }
 

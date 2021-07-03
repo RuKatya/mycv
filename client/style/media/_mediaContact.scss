@@ -1,0 +1,181 @@
+//1024px
+@media only screen and (max-width: 1024px) {
+    .contact {
+        &__flex {
+            &--header {
+                width: 20%;
+                margin: 0% 0% 2% 40%;
+                font-size: 2.3rem;
+            }
+        }
+
+        &__links {
+            font-size: 1.7rem;
+        }
+
+        &__whatsapp {
+            top: -65%;
+            left: 4%;
+            width: 35%;
+            padding: 1% 1.5%;
+        }
+    }
+
+    .contactLeft {
+        &__header {
+            font-size: 4rem;
+            top: 44%;
+        }
+    }
+}
+
+//770px
+@media only screen and (max-width: 770px) {
+    .contact {
+        &__flex {
+            width: 85%;
+            left: 7.5%;
+
+            &--header {
+                width: 35%;
+                margin: 0% 0% 2% 32.5%;
+                font-size: 2rem;
+            }
+        }
+
+        &__links {
+            font-size: 1.5rem;
+        }
+
+        &__whatsapp {
+            top: -63%;
+            left: 10%;
+            width: 45%;
+            padding: 1% 1.5%;
+        }
+    }
+
+    .contactLeft {
+
+        &__header {
+            font-size: 3rem;
+            top: 46%;
+        }
+    }
+}
+
+//415px
+@media only screen and (max-width: 415px) {
+    .contact {
+        &__flex {
+            height: 80vh;
+            width: 90%;
+            top: 10%;
+            left: 5%;
+
+            &--header {
+                width: 35%;
+                margin: 0% 0% 2% 32.5%;
+                font-size: 1.5rem;
+            }
+        }
+
+        &__links {
+            font-size: 0.9rem;
+        }
+
+        &__whatsapp {
+            top: -78%;
+            left: 10%;
+            width: 80%;
+            padding: 1.5% 2%;
+
+            &>img {
+                width: 15%;
+            }
+        }
+    }
+
+    .contactLeft {
+
+        &__header {
+            font-size: 1.8rem;
+            top: 46%;
+        }
+    }
+}
+
+//375px
+@media only screen and (max-width: 375px) {
+    .contact {
+        &__flex {
+            height: 83vh;
+            width: 90%;
+            top: 13%;
+
+            &--header {
+                width: 45%;
+                margin: 0% 0% 2% 27.5%;
+                font-size: 1.3rem;
+            }
+        }
+
+        &__links {
+            font-size: 0.8rem;
+        }
+
+        &__whatsapp {
+            left: 7.5%;
+            width: 85%;
+            padding: 1.5% 2%;
+
+            &>img {
+                width: 15%;
+            }
+        }
+    }
+
+    .contactLeft {
+        &__header {
+            font-size: 1.5rem;
+            top: 46%;
+        }
+    }
+}
+
+//320px
+@media only screen and (max-width: 320px) {
+    .contact {
+        &__flex {
+            top: 15.5%;
+
+            &--header {
+                width: 45%;
+                margin: 0% 0% 2% 27.5%;
+                font-size: 1.3rem;
+            }
+        }
+
+        &__links {
+            font-size: 0.7rem;
+        }
+
+        &__whatsapp {
+            left: 2.5%;
+            width: 95%;
+            padding: 1% 1.5%;
+
+            &>img {
+                width: 12%;
+            }
+        }
+    }
+
+    .contactLeft {
+
+        &__header {
+            font-size: 1.3rem;
+            top: 50%;
+        }
+    }
+}
