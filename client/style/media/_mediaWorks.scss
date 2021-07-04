@@ -1,0 +1,206 @@
+//1024px
+@media only screen and (max-width: 1024px) {
+    .myWork {
+        &__projects {
+            top: 3.5%;
+
+            &--content {
+                height: 21vh;
+
+                &__info {
+                    left: 57%;
+                    top: 7%;
+                    width: 40%;
+                    padding: 1% 2% 20% 2%;
+
+                    &>h2 {
+                        font-size: 2rem;
+                    }
+
+                    &>h3 {
+                        font-size: 1.5rem;
+                    }
+
+                    &>h2,
+                    &>h3 {
+                        padding: 3% 0;
+                    }
+                }
+
+                &__linkGit {
+                    bottom: 7.2vh;
+                    left: 57%;
+                    width: 25%;
+                    padding: 0.5% 2%;
+                }
+            }
+        }
+    }
+
+    .myWorkLeft {
+        &__header {
+            font-size: 3.5rem;
+            top: 48%;
+        }
+    }
+}
+
+//770px
+@media only screen and (max-width: 770px) {
+    .myWork {
+        &__projects {
+
+            &--content {
+
+                &__info {
+                    left: 47%;
+                    top: 7%;
+                    width: 50%;
+                    padding: 1% 2% 17% 2%;
+
+                    &>h2 {
+                        font-size: 1.8rem;
+                    }
+
+                    &>h3 {
+                        font-size: 1.3rem;
+                    }
+
+                    &>h2,
+                    &>h3 {
+                        padding: 3% 0;
+                    }
+                }
+
+                &__linkGit {
+                    left: 53%;
+                    padding: 1% 2.5%;
+                }
+            }
+        }
+    }
+
+    .myWorkLeft {
+        &__header {
+            font-size: 3rem;
+        }
+    }
+}
+
+//415px
+@media only screen and (max-width: 415px) {
+    .myWork {
+        &__projects {
+            top: 2%;
+
+            &--content {
+                &__info {
+                    left: 37%;
+                    top: 7%;
+                    width: 60%;
+                    padding: 1% 2% 23% 2%;
+
+                    &>h2 {
+                        font-size: 1.3rem;
+                    }
+
+                    &>h3 {
+                        font-size: 1rem;
+                    }
+
+                    &>h2,
+                    &>h3 {
+                        padding: 2% 0;
+                    }
+                }
+
+                &__linkGit {
+                    left: 41.5%;
+                    width: 40%;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+
+    .myWorkLeft {
+        &__header {
+            font-size: 2rem;
+        }
+    }
+}
+
+//375px
+@media only screen and (max-width: 375px) {
+    .myWork {
+        &__projects {
+
+            &--content {
+
+                &__info {
+                    left: 28%;
+                    top: 5%;
+                    width: 70%;
+
+                    &>h2 {
+                        font-size: 1.1rem;
+                    }
+
+                    &>h3 {
+                        font-size: 1rem;
+                    }
+                }
+
+                &__linkGit {
+                    left: 39%;
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+    .myWorkLeft {
+        &__header {
+            font-size: 2rem;
+        }
+    }
+}
+
+//320px
+@media only screen and (max-width: 320px) {
+    .myWork {
+        &__projects {
+            top: 1.5%;
+
+            &--content {
+
+                &__info {
+                    left: 28%;
+                    top: 5%;
+                    width: 70%;
+
+                    &>h2 {
+                        font-size: 1rem;
+                    }
+
+                    &>h3 {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                &__linkGit {
+                    left: 33%;
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .myWorkLeft {
+        &__header {
+            font-size: 1.6rem;
+            top: 45%;
+        }
+
+    }
+}

@@ -7,10 +7,11 @@
 @import './components/myWorks';
 
 //MEDIA
-@import './media/_mediaHome';
-@import './media/_mediaSkills';
-@import './media/_mediaContact';
-@import './media/_mediaAbout';
+@import './media/mediaHome';
+@import './media/mediaSkills';
+@import './media/mediaContact';
+@import './media/mediaAbout';
+@import './media/mediaWorks';
 
 * {
     box-sizing: border-box;

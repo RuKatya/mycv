@@ -1126,6 +1126,143 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .myWork__projects {
+    top: 3.5%;
+  }
+  .myWork__projects--content {
+    height: 21vh;
+  }
+  .myWork__projects--content__info {
+    left: 57%;
+    top: 7%;
+    width: 40%;
+    padding: 1% 2% 20% 2%;
+  }
+  .myWork__projects--content__info > h2 {
+    font-size: 2rem;
+  }
+  .myWork__projects--content__info > h3 {
+    font-size: 1.5rem;
+  }
+  .myWork__projects--content__info > h2,
+  .myWork__projects--content__info > h3 {
+    padding: 3% 0;
+  }
+  .myWork__projects--content__linkGit {
+    bottom: 7.2vh;
+    left: 57%;
+    width: 25%;
+    padding: 0.5% 2%;
+  }
+  .myWorkLeft__header {
+    font-size: 3.5rem;
+    top: 48%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .myWork__projects--content__info {
+    left: 47%;
+    top: 7%;
+    width: 50%;
+    padding: 1% 2% 17% 2%;
+  }
+  .myWork__projects--content__info > h2 {
+    font-size: 1.8rem;
+  }
+  .myWork__projects--content__info > h3 {
+    font-size: 1.3rem;
+  }
+  .myWork__projects--content__info > h2,
+  .myWork__projects--content__info > h3 {
+    padding: 3% 0;
+  }
+  .myWork__projects--content__linkGit {
+    left: 53%;
+    padding: 1% 2.5%;
+  }
+  .myWorkLeft__header {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .myWork__projects {
+    top: 2%;
+  }
+  .myWork__projects--content__info {
+    left: 37%;
+    top: 7%;
+    width: 60%;
+    padding: 1% 2% 23% 2%;
+  }
+  .myWork__projects--content__info > h2 {
+    font-size: 1.3rem;
+  }
+  .myWork__projects--content__info > h3 {
+    font-size: 1rem;
+  }
+  .myWork__projects--content__info > h2,
+  .myWork__projects--content__info > h3 {
+    padding: 2% 0;
+  }
+  .myWork__projects--content__linkGit {
+    left: 41.5%;
+    width: 40%;
+    font-size: 1.1rem;
+  }
+  .myWorkLeft__header {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .myWork__projects--content__info {
+    left: 28%;
+    top: 5%;
+    width: 70%;
+  }
+  .myWork__projects--content__info > h2 {
+    font-size: 1.1rem;
+  }
+  .myWork__projects--content__info > h3 {
+    font-size: 1rem;
+  }
+  .myWork__projects--content__linkGit {
+    left: 39%;
+    width: 40%;
+  }
+  .myWorkLeft__header {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .myWork__projects {
+    top: 1.5%;
+  }
+  .myWork__projects--content__info {
+    left: 28%;
+    top: 5%;
+    width: 70%;
+  }
+  .myWork__projects--content__info > h2 {
+    font-size: 1rem;
+  }
+  .myWork__projects--content__info > h3 {
+    font-size: 0.9rem;
+  }
+  .myWork__projects--content__linkGit {
+    left: 33%;
+    width: 50%;
+  }
+  .myWorkLeft__header {
+    font-size: 1.6rem;
+    top: 45%;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
