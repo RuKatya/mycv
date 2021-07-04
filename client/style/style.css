@@ -343,7 +343,7 @@
 .homePage__whatsup {
   position: relative;
   top: 50%;
-  left: 42%;
+  left: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +449,7 @@
   color: white;
   position: absolute;
   top: 12%;
-  left: 4.5%;
+  left: 4.3%;
 }
 
 .homePage .downloadCV:hover {
@@ -985,10 +985,6 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .about {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), color-stop(60%, rgba(0, 0, 0, 0.5))), url("../public/img/about1.jpg");
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.5) 60%), url("../public/img/about1.jpg");
-  }
   .about__contacts {
     left: 70%;
     width: 30%;
@@ -1044,54 +1040,67 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .hobbies__flex--text {
-    width: 100%;
-    font-size: 1.1rem;
-    padding: 2% 0%;
-    position: relative;
-    top: 50%;
-  }
-  .hobbies__flex--text > p {
-    padding: 0.5% 0%;
   }
   .hobbies__flex--img {
-    width: 60%;
-  }
-  .popup__body {
-    min-height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 3% 1%;
-  }
-  .popup__content {
-    background-color: white;
-    color: black;
-    max-width: 800px;
-    padding: 1%;
+    width: 80%;
+    margin: 0% 10%;
   }
   .popup__close {
-    top: 5%;
-    left: 3%;
-    font-size: 1.1rem;
-    padding: 0.5% 1%;
+    top: 2%;
   }
   .popup__title {
-    top: 0%;
-    left: 18%;
-    font-size: 1.5rem;
-    margin: 0 0 4% 0;
+    top: 2%;
+    left: 38%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .about {
+    height: 200vh;
+  }
+  .hobbiesBtn {
+    top: 79rem;
+    left: 31.5%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .about {
+    height: 235vh;
+  }
+  .about__contacts {
+    top: 1.2%;
+    left: 50%;
+    width: 50%;
+  }
+  .about__backBtn {
+    padding: 1.2% 1.7%;
+  }
+  .about__content {
+    left: 3%;
+    width: 94%;
+  }
+  .hobbiesBtn {
+    top: 78.5rem;
+    left: 29.5%;
+    padding: 1.2% 2.2%;
+  }
+  .hobbies__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hobbies__flex--img {
+    width: 80%;
+    margin: 0% 10%;
+  }
+  .popup__close {
+    top: 2%;
+  }
+  .popup__title {
+    top: 2%;
+    left: 35%;
   }
 }
 

@@ -1,8 +1,6 @@
 //1024px
 @media only screen and (max-width: 1024px) {
     .about {
-        // background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('../public/img/about1.jpg');
-
         &__contacts {
             left: 75%;
             width: 25%;
@@ -41,7 +39,6 @@
 //770px
 @media only screen and (max-width: 770px) {
     .about {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.950), rgba(0, 0, 0, 0.5)60%), url('../public/img/about1.jpg');
 
         &__contacts {
             left: 70%;
@@ -105,65 +102,81 @@
 
     .hobbies__flex {
         flex-direction: column;
-        width: 100%;
-
-        align-items: center;
-
-        &--text {
-            width: 100%;
-            font-size: 1.1rem;
-            padding: 2% 0%;
-            position: relative;
-            top: 50%;
-            // margin: 5% 0%;
-
-            &>p {
-                padding: 0.5% 0%;
-            }
-        }
 
         &--img {
-            width: 60%;
-            // padding: 0% 0% 0% 7.5%;
-            // position: relative;
-            // left: 7.5%;
+            width: 80%;
+            margin: 0% 10%;
         }
     }
 
     .popup {
-        &__body {
-            min-height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 3% 1%;
-        }
-
-        &__content {
-            background-color: white;
-            color: black;
-            max-width: 800px;
-            padding: 1%;
-        }
-
         &__close {
-            top: 5%;
-            left: 3%;
-            font-size: 1.1rem;
-            padding: 0.5% 1%;
+            top: 2%;
         }
 
         &__title {
-            top: 0%;
-            left: 18%;
-            font-size: 1.5rem;
-            margin: 0 0 4% 0;
+            top: 2%;
+            left: 38%;
         }
     }
 }
 
 //375px
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+    .about {
+        height: 200vh;
+    }
+
+    .hobbiesBtn {
+        top: 79rem;
+        left: 31.5%;
+    }
+}
 
 //320px
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .about {
+        height: 235vh;
+
+        &__contacts {
+            top: 1.2%;
+            left: 50%;
+            width: 50%;
+        }
+
+        &__backBtn {
+            padding: 1.2% 1.7%;
+        }
+
+        &__content {
+            left: 3%;
+            width: 94%;
+        }
+    }
+
+    .hobbiesBtn {
+        top: 78.5rem;
+        left: 29.5%;
+        padding: 1.2% 2.2%;
+    }
+
+    .hobbies__flex {
+        flex-direction: column;
+
+        &--img {
+            width: 80%;
+            margin: 0% 10%;
+        }
+    }
+
+    .popup {
+        &__close {
+            top: 2%;
+        }
+
+        &__title {
+            top: 2%;
+            left: 35%;
+        }
+    }
+}
