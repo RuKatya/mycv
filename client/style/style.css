@@ -520,69 +520,67 @@
 
 .myWork__projects {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  top: 5%;
+  left: 5%;
 }
 
 .myWork__projects--content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.8rem;
+  width: 90%;
+  height: 18vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  width: 40%;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 2% 5%;
-  color: black;
-  background-color: white;
-  border-radius: 1rem;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
-.myWork__projects--content__img {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 3;
-  margin-top: 5%;
-  width: 70%;
-  border-radius: 1rem;
+.myWork__projects--content__firstProject {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.3))), url("../public/img/Capture.JPG");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 60%), url("../public/img/Capture.JPG");
 }
 
-.myWork__projects--content__header {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 3;
-      grid-row-start: 3;
-  grid-row-end: 4;
+.myWork__projects--content__firstProject:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../public/img/Capture.JPG");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../public/img/Capture.JPG");
 }
 
-.myWork__projects--content__parag {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 4;
-      grid-row-start: 4;
-  grid-row-end: 5;
+.myWork__projects--content__info {
+  position: relative;
+  left: 73%;
+  top: 10%;
+  text-align: center;
+  background-color: rgba(83, 173, 246, 0.95);
+  width: 25%;
+  padding: 1% 2%;
+  border-radius: 0.8rem;
 }
 
-.myWork__projects--content__link {
-  background-color: #dddddd;
-  color: #228b34;
-  border-radius: 0.5rem;
-  padding: 2% 4%;
-  margin: 5% 0%;
+.myWork__projects--content__info > h2,
+.myWork__projects--content__info > h3 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.myWork__projects--content__linkGit {
+  position: relative;
+  top: -5%;
+  left: 69%;
+  padding: 0.8% 2.5%;
+  background-color: #f66d11;
+  border-radius: 0.8rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.myWork__projects--content__linkGit:hover {
+  background-color: #f68b44;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .myWorkLeft {
