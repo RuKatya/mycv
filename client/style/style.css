@@ -520,7 +520,7 @@
 
 .myWork__projects {
   position: relative;
-  top: 5%;
+  top: 9%;
   left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,16 +542,7 @@
   display: grid;
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-}
-
-.myWork__projects--content__firstProject {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.3))), url("../../public/img/projects/quiz.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 60%), url("../../public/img/projects/quiz.jpg");
-}
-
-.myWork__projects--content__firstProject:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../../public/img/projects/quiz.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/quiz.jpg");
+  margin: 7% 0%;
 }
 
 .myWork__projects--content__info {
@@ -575,7 +566,7 @@
 
 .myWork__projects--content__linkGit {
   position: relative;
-  bottom: 7.2vh;
+  bottom: 16vh;
   left: 70.5%;
   width: 13%;
   padding: 0.5% 2%;
@@ -618,6 +609,26 @@
   font-size: 4.5rem;
   position: relative;
   top: 42%;
+}
+
+.firstProject {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.3))), url("../../public/img/projects/quiz.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 60%), url("../../public/img/projects/quiz.jpg");
+}
+
+.firstProject:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../../public/img/projects/quiz.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/quiz.jpg");
+}
+
+.secondProject {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.3))), url("../../public/img/projects/post.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 60%), url("../../public/img/projects/post.jpg");
+}
+
+.secondProject:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../../public/img/projects/post.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/post.jpg");
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1128,7 +1139,7 @@
 
 @media only screen and (max-width: 1024px) {
   .myWork__projects {
-    top: 3.5%;
+    top: 18%;
   }
   .myWork__projects--content {
     height: 21vh;
@@ -1138,6 +1149,7 @@
     top: 7%;
     width: 40%;
     padding: 1% 2% 20% 2%;
+    height: 18vh;
   }
   .myWork__projects--content__info > h2 {
     font-size: 2rem;
@@ -1150,7 +1162,7 @@
     padding: 3% 0;
   }
   .myWork__projects--content__linkGit {
-    bottom: 7.2vh;
+    bottom: 12vh;
     left: 57%;
     width: 25%;
     padding: 0.5% 2%;
@@ -1189,7 +1201,7 @@
 
 @media only screen and (max-width: 415px) {
   .myWork__projects {
-    top: 2%;
+    top: 25%;
   }
   .myWork__projects--content__info {
     left: 37%;
@@ -1220,8 +1232,9 @@
 @media only screen and (max-width: 375px) {
   .myWork__projects--content__info {
     left: 28%;
-    top: 5%;
+    top: 3%;
     width: 70%;
+    height: 20vh;
   }
   .myWork__projects--content__info > h2 {
     font-size: 1.1rem;
@@ -1232,6 +1245,7 @@
   .myWork__projects--content__linkGit {
     left: 39%;
     width: 40%;
+    bottom: 10vh;
   }
   .myWorkLeft__header {
     font-size: 2rem;
@@ -1240,11 +1254,10 @@
 
 @media only screen and (max-width: 320px) {
   .myWork__projects {
-    top: 1.5%;
+    top: 25%;
   }
   .myWork__projects--content__info {
     left: 28%;
-    top: 5%;
     width: 70%;
   }
   .myWork__projects--content__info > h2 {
