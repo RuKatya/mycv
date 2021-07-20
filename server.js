@@ -12,14 +12,18 @@ app.use(express.static(path.resolve(__dirname, 'client')))
 
 //ROUTES
 const enRoute = require('./route/enRoute/enRoute')
-const heRoute = require('./route/heRoute/heRoute')
 const aboutRouteEN = require('./route/enRoute/aboutRouteEN')
+const moreRouteEN = require('./route/enRoute/moreRouteEN')
+
+const heRoute = require('./route/heRoute/heRoute')
 const aboutRouteHE = require('./route/heRoute/aboutRouteHE')
 
 app.use('/english', enRoute)
 app.use('/hebrew', heRoute)
 app.use('/aboutmeEn', aboutRouteEN)
 app.use('/aboutmeHe', aboutRouteHE)
+app.use('/moreProjects', moreRouteEN)
+
 
 app.get('/', (req, res) => {
     res.status(200) //default status

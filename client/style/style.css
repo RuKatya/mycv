@@ -631,6 +631,52 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/post.jpg");
 }
 
+.morePage {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), color-stop(80%, rgba(0, 0, 0, 0.7))), url("../public/img/plants.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7) 80%), url("../public/img/plants.jpg");
+}
+
+.contentMore {
+  width: 60%;
+  margin: 5% 20%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+  border-radius: 1rem;
+}
+
+.contentMore ul {
+  list-style: none;
+  margin: 5% 0%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.contentMore ul h2 {
+  border-bottom: 1px solid green;
+}
+
+.contentMore ul h2 > a {
+  color: white;
+}
+
+.contentMore ul h3 {
+  border-bottom: 1px solid red;
+}
+
+.contentMore ul > li > a {
+  font-size: 1.2rem;
+  color: white;
+}
+
 @media only screen and (max-width: 1024px) {
   .homePage__header1 {
     top: 32%;
