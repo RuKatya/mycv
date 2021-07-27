@@ -520,7 +520,7 @@
 
 .myWork__projects {
   position: relative;
-  top: 9%;
+  top: 5%;
   left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,7 +542,6 @@
   display: grid;
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-  margin: 7% 0%;
 }
 
 .myWork__projects--content__info {
@@ -566,7 +565,7 @@
 
 .myWork__projects--content__linkGit {
   position: relative;
-  bottom: 16vh;
+  bottom: 7.2vh;
   left: 70.5%;
   width: 13%;
   padding: 0.5% 2%;
@@ -629,6 +628,25 @@
 .secondProject:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../../public/img/projects/post.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/post.jpg");
+}
+
+.comingSoon {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 181, 181, 0.9)), color-stop(60%, rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to bottom, rgba(181, 181, 181, 0.9), rgba(255, 255, 255, 0.5) 60%);
+  margin: 1.5% 0%;
+}
+
+.comingSoon:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), color-stop(60%, rgba(255, 255, 255, 0.7)));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7) 60%);
+  color: #2081f0;
+}
+
+.comingSoon__title {
+  font-size: 2rem;
+  position: relative;
+  top: 50%;
+  left: 75%;
 }
 
 .morePage {
@@ -1185,7 +1203,7 @@
 
 @media only screen and (max-width: 1024px) {
   .myWork__projects {
-    top: 18%;
+    top: 3.5%;
   }
   .myWork__projects--content {
     height: 21vh;
@@ -1208,7 +1226,7 @@
     padding: 3% 0;
   }
   .myWork__projects--content__linkGit {
-    bottom: 12vh;
+    bottom: 7.2vh;
     left: 57%;
     width: 25%;
     padding: 0.5% 2%;
@@ -1247,7 +1265,7 @@
 
 @media only screen and (max-width: 415px) {
   .myWork__projects {
-    top: 25%;
+    top: 2%;
   }
   .myWork__projects--content__info {
     left: 37%;
@@ -1278,9 +1296,9 @@
 @media only screen and (max-width: 375px) {
   .myWork__projects--content__info {
     left: 28%;
+    top: 5%;
     top: 3%;
     width: 70%;
-    height: 20vh;
   }
   .myWork__projects--content__info > h2 {
     font-size: 1.1rem;
@@ -1300,10 +1318,11 @@
 
 @media only screen and (max-width: 320px) {
   .myWork__projects {
-    top: 25%;
+    top: 1.5%;
   }
   .myWork__projects--content__info {
     left: 28%;
+    top: 5%;
     width: 70%;
   }
   .myWork__projects--content__info > h2 {

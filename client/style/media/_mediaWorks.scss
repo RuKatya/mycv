@@ -2,8 +2,8 @@
 @media only screen and (max-width: 1024px) {
     .myWork {
         &__projects {
-            // top: 3.5%; //for four
-            top: 18%;
+            top: 3.5%; //for four
+            // top: 18%;
 
             &--content {
                 height: 21vh;
@@ -31,8 +31,8 @@
                 }
 
                 &__linkGit {
-                    // bottom: 7.2vh; //with four
-                    bottom: 12vh;
+                    bottom: 7.2vh; //with four
+                    // bottom: 12vh;
                     left: 57%;
                     width: 25%;
                     padding: 0.5% 2%;
@@ -95,8 +95,8 @@
 @media only screen and (max-width: 415px) {
     .myWork {
         &__projects {
-            // top: 2%; //for four
-            top: 25%;
+            top: 2%; //for four
+            // top: 25%;
 
             &--content {
                 &__info {
@@ -144,10 +144,10 @@
 
                 &__info {
                     left: 28%;
-                    // top: 5%; //for four
+                    top: 5%; //for four
                     top: 3%;
                     width: 70%;
-                    height: 20vh; //delete
+                    // height: 20vh; //delete
 
                     &>h2 {
                         font-size: 1.1rem;
@@ -178,14 +178,14 @@
 @media only screen and (max-width: 320px) {
     .myWork {
         &__projects {
-            // top: 1.5%; //for four
-            top: 25%;
+            top: 1.5%; //for four
+            // top: 25%;
 
             &--content {
 
                 &__info {
                     left: 28%;
-                    // top: 5%; //for four
+                    top: 5%; //for four
                     width: 70%;
 
                     &>h2 {
