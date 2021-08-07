@@ -630,6 +630,25 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/post.jpg");
 }
 
+.thirdProject {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), color-stop(60%, rgba(0, 0, 0, 0.3))), url("../../public/img/projects/tasks2.JPG");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) 60%), url("../../public/img/projects/tasks2.JPG");
+}
+
+.thirdProject:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), color-stop(60%, rgba(0, 0, 0, 0.05))), url("../../public/img/projects/tasks2.JPG");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 60%), url("../../public/img/projects/tasks2.JPG");
+}
+
+.inProcess {
+  font-size: 2rem;
+  color: #004c9c;
+  position: relative;
+  top: -3vh;
+  left: 3%;
+  width: 20%;
+}
+
 .comingSoon {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(181, 181, 181, 0.9)), color-stop(60%, rgba(255, 255, 255, 0.5)));
   background: linear-gradient(to bottom, rgba(181, 181, 181, 0.9), rgba(255, 255, 255, 0.5) 60%);

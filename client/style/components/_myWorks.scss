@@ -96,6 +96,23 @@
     }
 }
 
+.thirdProject {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)60%), url('../../public/img/projects/tasks2.JPG');
+
+    &:hover {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05)60%), url('../../public/img/projects/tasks2.JPG');
+    }
+}
+
+.inProcess {
+    font-size: 2rem;
+    color: rgb(0, 76, 156);
+    position: relative;
+    top: -3vh;
+    left: 3%;
+    width: 20%;
+}
+
 .comingSoon {
     background: linear-gradient(to bottom, rgba(181, 181, 181, 0.9), rgba(255, 255, 255, 0.5)60%);
     margin: 1.5% 0%;
