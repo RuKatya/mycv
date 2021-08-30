@@ -18,6 +18,12 @@
             font-size: 1.3rem;
         }
 
+        &__telegramBot {
+            top: 63.5vh;
+            left: 37.3%;
+            width: 25.5%;
+        }
+
         &__whatsup {
             top: 50%;
             left: 35%;
@@ -60,8 +66,15 @@
             padding: 1% 2%;
         }
 
+        &__telegramBot {
+            top: 69.5vh;
+            left: 32.5%;
+            padding: 0.8% 0%;
+            width: 35%;
+        }
+
         &__whatsup {
-            top: 50%;
+            top: 52%;
             left: 32.5%;
             width: 35%;
             padding: 1% 1.5%;
@@ -104,10 +117,17 @@
             font-size: 1.5rem;
         }
 
+        &__telegramBot {
+            top: 69.5vh;
+            left: 19.5%;
+            padding: 1.2% 0%;
+            width: 61.5%;
+        }
+
         &__whatsup {
-            top: 50%;
-            left: 17.5%;
-            width: 70%;
+            top: 54%;
+            left: 19%;
+            width: 62%;
             padding: 1.5% 2%;
 
             &>img {
@@ -131,8 +151,6 @@
 
         }
     }
-
-
 }
 
 //375px
@@ -146,8 +164,15 @@
             font-size: 1.3rem;
         }
 
+        &__telegramBot {
+            top: 69.8vh;
+            left: 15.5%;
+            width: 69%;
+        }
+
         &__whatsup {
             left: 15%;
+            width: 70%;
         }
 
         &__lang {
@@ -179,6 +204,10 @@
         &__moreMe {
             font-size: 1.1rem;
             padding: 1.5% 2.5%;
+        }
+
+        &__telegramBot {
+            top: 71vh;
         }
 
         &__whatsup {

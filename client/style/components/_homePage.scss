@@ -31,6 +31,19 @@
         }
     }
 
+    &__telegramBot {
+        background-color: rgb(0, 136, 204);
+        color: white;
+        position: absolute;
+        top: 64vh;
+        left: 42.8%;
+        font-size: 1.1rem;
+        border: 2px solid white;
+        border-radius: 0.4rem;
+        padding: 0.5% 0%;
+        width: 14.5%;
+    }
+
     &__whatsup {
         position: relative;
         top: 50%;
@@ -55,6 +68,8 @@
             width: 15%;
         }
     }
+
+
 
     &__lang {
         position: absolute;
@@ -94,6 +109,8 @@
             width: 70%;
         }
     }
+
+
 
     .titleHref {
         display: inline-block;

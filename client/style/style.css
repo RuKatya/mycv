@@ -340,6 +340,19 @@
   transition: ease-in-out 0.1s;
 }
 
+.homePage__telegramBot {
+  background-color: #0088cc;
+  color: white;
+  position: absolute;
+  top: 64vh;
+  left: 42.8%;
+  font-size: 1.1rem;
+  border: 2px solid white;
+  border-radius: 0.4rem;
+  padding: 0.5% 0%;
+  width: 14.5%;
+}
+
 .homePage__whatsup {
   position: relative;
   top: 50%;
@@ -728,6 +741,11 @@
     top: 45%;
     font-size: 1.3rem;
   }
+  .homePage__telegramBot {
+    top: 63.5vh;
+    left: 37.3%;
+    width: 25.5%;
+  }
   .homePage__whatsup {
     top: 50%;
     left: 35%;
@@ -761,8 +779,14 @@
     font-size: 1.3rem;
     padding: 1% 2%;
   }
+  .homePage__telegramBot {
+    top: 69.5vh;
+    left: 32.5%;
+    padding: 0.8% 0%;
+    width: 35%;
+  }
   .homePage__whatsup {
-    top: 50%;
+    top: 52%;
     left: 32.5%;
     width: 35%;
     padding: 1% 1.5%;
@@ -794,10 +818,16 @@
     left: 5%;
     font-size: 1.5rem;
   }
+  .homePage__telegramBot {
+    top: 69.5vh;
+    left: 19.5%;
+    padding: 1.2% 0%;
+    width: 61.5%;
+  }
   .homePage__whatsup {
-    top: 50%;
-    left: 17.5%;
-    width: 70%;
+    top: 54%;
+    left: 19%;
+    width: 62%;
     padding: 1.5% 2%;
   }
   .homePage__whatsup > img {
@@ -824,8 +854,14 @@
   .homePage__header2 {
     font-size: 1.3rem;
   }
+  .homePage__telegramBot {
+    top: 69.8vh;
+    left: 15.5%;
+    width: 69%;
+  }
   .homePage__whatsup {
     left: 15%;
+    width: 70%;
   }
   .homePage__lang {
     left: 65%;
@@ -849,6 +885,9 @@
   .homePage__moreMe {
     font-size: 1.1rem;
     padding: 1.5% 2.5%;
+  }
+  .homePage__telegramBot {
+    top: 71vh;
   }
   .homePage__whatsup {
     left: 10%;
